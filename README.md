@@ -22,9 +22,9 @@ devtools::install_github("R-Lum/Psync@master")
 1. Establish a Wi-Fi connection to your camera
 2. Open **R**
 3. Load the package via `library(Psync)`
-4. Show images via `list_images()`
-5. Download images via `download_images(output_path = "YOUR DOWNLOAD FOLDER NAME"`)
+4. Download images via `download_images(output_path = "YOUR DOWNLOAD FOLDER NAME"`)
 
+To just list the available images run `list_images()` in you **R** console.
 
 # Tested camera models
 
