@@ -35,7 +35,7 @@
 #'@return This function returns nothing.
 #'
 #' @export
-download_imagess <- function(
+download_images <- function(
   files = list_images(verbose = FALSE),
   output_path,
   url = "http://192.168.0.1/v1",
