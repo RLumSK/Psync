@@ -23,10 +23,13 @@ list_images<- function(
   file_list <-  as.list(photos$dirs$files)
   names(file_list) <- photos$dirs$name
 
+  ##remove empty folders
+  file_list[sapply(file_list, length) == 0] <- NULL
+
   ##verbose
   if(verbose){
     for(i in 1:length(file_list)){
-      cat(paste0("> ",names(file_list[i]),"/"))
+      cat(paste0("\n > ",names(file_list[i]),"/"))
       cat(paste0("\n  |--",file_list[[i]]))
 
     }
