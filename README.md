@@ -26,7 +26,7 @@ devtools::install_github("R-Lum/Psync@master")
 
 To just list the available images run `list_images()` in you **R** console.
 
-# Tested camera models
+## Tested camera models
 
 * K-70 (Firmware: 1.10)
 
