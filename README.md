@@ -5,7 +5,7 @@
 ### CRAN statistics
 [![CRAN](http://www.r-pkg.org/badges/version/Psync)](http://cran.rstudio.com/package=Psync)
 
-#How to use this package?
+# How to use this package?
 
 ## Package installation
 
@@ -24,7 +24,7 @@ devtools::install_github("R-Lum/Psync@master")
 3. Load the package via `library(Psync)`
 4. Download images via `download_images(output_path = "YOUR DOWNLOAD FOLDER NAME"`)
 
-To just list the available images run `list_images()` in you **R** console.
+To just list the available images run `list_images()` in your **R** console.
 
 ## Tested camera models
 
